@@ -48,6 +48,9 @@
   environments, such as in Swift Package Manager plugins.  
   [Juozas Valancius](https://github.com/juozasvalancius)
 
+* Add `explicit_return` opt-in rule that warns against omitting the `return`
+  keyword inside closures, functions and getters.  
+
 #### Bug Fixes
 
 * Extend `class_delegate_protocol` to correctly identify cases with the protocol
